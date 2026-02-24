@@ -1,0 +1,52 @@
+============================================================
+PATIENT CLINICAL REPORT - PATIENT_7
+============================================================
+
+Patient ID: PATIENT_7
+Analysis Date: 20260208_135248
+Number of Visits: 4
+Mortality Risk: 37.76%
+Risk Category: MODERATE
+
+------------------------------------------------------------
+DISEASE PROFILE (Top 5)
+------------------------------------------------------------
+1. Ulcer of foot
+   - Score: 1.000
+   - Severity: severe
+   - Visit Frequency: 3
+   - Chronic: Yes
+
+2. Disease (ICD-9: 303.91)
+   - Score: 0.960
+   - Severity: severe
+   - Visit Frequency: 3
+   - Chronic: Yes
+
+3. Isotope uptake/excretion studies
+   - Score: 0.802
+   - Severity: severe
+   - Visit Frequency: 2
+   - Chronic: No
+
+4. MCH - low
+   - Score: 0.748
+   - Severity: severe
+   - Visit Frequency: 2
+   - Chronic: No
+
+5. Neurological investigation
+   - Score: 0.743
+   - Severity: severe
+   - Visit Frequency: 2
+   - Chronic: No
+
+------------------------------------------------------------
+CLINICAL INSIGHTS
+------------------------------------------------------------
+● [MODERATE] Moderate mortality risk detected
+  → Suggested Action: Assess risk factors and adjust care plan
+
+● [HIGH] Severe conditions: Ulcer of foot, Disease (ICD-9: 303.91), Isotope uptake/excretion studies
+  → Suggested Action: Specialist consultation
+

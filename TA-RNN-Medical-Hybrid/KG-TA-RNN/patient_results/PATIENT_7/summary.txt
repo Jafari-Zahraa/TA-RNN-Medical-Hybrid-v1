@@ -1,0 +1,15 @@
+PATIENT ANALYSIS SUMMARY
+=======================
+Patient ID: PATIENT_7
+Analysis Timestamp: 20260208_135248
+Directory: patient_results\PATIENT_7
+
+Generated Files:
+- interpretation.json (Complete interpretation data)
+- clinical_insights.json (Clinical insights)
+- clinical_report.txt (Text report)
+- disease_progression.png (Progression plot)
+- interpretation_summary.png (Main visualization)
+- patient_inputs.npz (Input data)
+
+To view the report, open: html/clinical_dashboard.html

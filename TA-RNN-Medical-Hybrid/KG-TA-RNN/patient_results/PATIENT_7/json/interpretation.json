@@ -1,0 +1,352 @@
+{
+  "patient_id": "PATIENT_7",
+  "mortality_risk": 0.37764111161231995,
+  "risk_category": "moderate",
+  "num_visits": 4,
+  "important_visits": [
+    {
+      "visit_index": 0,
+      "visit_importance": 0.17614218592643738,
+      "top_diseases": [
+        {
+          "icd": "D_L97.529",
+          "disease_name": "Ulcer of foot",
+          "importance": 2.559996777002952
+        },
+        {
+          "icd": "D_070.70",
+          "disease_name": "Disease (ICD-9: 070.70)",
+          "importance": 2.542592952285692
+        },
+        {
+          "icd": "D_511.9",
+          "disease_name": "Radiology - general",
+          "importance": 2.4634841111603443
+        }
+      ]
+    },
+    {
+      "visit_index": 1,
+      "visit_importance": 0.20388031005859375,
+      "top_diseases": [
+        {
+          "icd": "D_285.9",
+          "disease_name": "Insight present: [neurotic cond.] or [psychotic cond.]",
+          "importance": 3.023987860814107
+        },
+        {
+          "icd": "D_070.70",
+          "disease_name": "Disease (ICD-9: 070.70)",
+          "importance": 2.9429897031100554
+        },
+        {
+          "icd": "D_V85.22",
+          "disease_name": "Medical Service/Status: V85.22",
+          "importance": 2.939066910278237
+        },
+        {
+          "icd": "D_M46.96",
+          "disease_name": "Arthritis of facet joint of lumbar spine (disorder)",
+          "importance": 2.885216768316699
+        },
+        {
+          "icd": "D_511.9",
+          "disease_name": "Radiology - general",
+          "importance": 2.851423137314467
+        },
+        {
+          "icd": "D_I27.2",
+          "disease_name": "Pulmonary hypertension secondary to raised pulmonary vascular resistance",
+          "importance": 2.832008145261456
+        },
+        {
+          "icd": "D_303.91",
+          "disease_name": "Disease (ICD-9: 303.91)",
+          "importance": 2.749863744917882
+        }
+      ]
+    },
+    {
+      "visit_index": 2,
+      "visit_importance": 0.25979381799697876,
+      "top_diseases": [
+        {
+          "icd": "D_571.0",
+          "disease_name": "Isotope uptake/excretion studies",
+          "importance": 3.8887926352878437
+        },
+        {
+          "icd": "D_L97.529",
+          "disease_name": "Ulcer of foot",
+          "importance": 3.7757640695756565
+        },
+        {
+          "icd": "D_428.32",
+          "disease_name": "MCH - low",
+          "importance": 3.628055284656314
+        },
+        {
+          "icd": "D_311",
+          "disease_name": "Neurological investigation",
+          "importance": 3.6024649661733714
+        },
+        {
+          "icd": "D_303.91",
+          "disease_name": "Disease (ICD-9: 303.91)",
+          "importance": 3.5040048794234906
+        }
+      ]
+    },
+    {
+      "visit_index": 3,
+      "visit_importance": 0.3601837158203125,
+      "top_diseases": [
+        {
+          "icd": "D_571.0",
+          "disease_name": "Isotope uptake/excretion studies",
+          "importance": 5.391505433931957
+        },
+        {
+          "icd": "D_L97.529",
+          "disease_name": "Ulcer of foot",
+          "importance": 5.234800208588491
+        },
+        {
+          "icd": "D_V85.22",
+          "disease_name": "Medical Service/Status: V85.22",
+          "importance": 5.192281885800082
+        },
+        {
+          "icd": "D_428.32",
+          "disease_name": "MCH - low",
+          "importance": 5.030013584250221
+        },
+        {
+          "icd": "D_311",
+          "disease_name": "Neurological investigation",
+          "importance": 4.99453461838692
+        },
+        {
+          "icd": "D_303.91",
+          "disease_name": "Disease (ICD-9: 303.91)",
+          "importance": 4.858027444432632
+        }
+      ]
+    }
+  ],
+  "disease_profile": {
+    "Ulcer of foot": {
+      "score": 1.0,
+      "raw_score": 11.5705610551671,
+      "severity": "severe",
+      "frequency": 3,
+      "is_chronic": true
+    },
+    "Disease (ICD-9: 303.91)": {
+      "score": 0.9603593132427862,
+      "raw_score": 11.111896068774005,
+      "severity": "severe",
+      "frequency": 3,
+      "is_chronic": true
+    },
+    "Isotope uptake/excretion studies": {
+      "score": 0.8020611986724246,
+      "raw_score": 9.2802980692198,
+      "severity": "severe",
+      "frequency": 2,
+      "is_chronic": false
+    },
+    "MCH - low": {
+      "score": 0.7482842731329847,
+      "raw_score": 8.658068868906534,
+      "severity": "severe",
+      "frequency": 2,
+      "is_chronic": false
+    },
+    "Neurological investigation": {
+      "score": 0.7430062849649891,
+      "raw_score": 8.596999584560292,
+      "severity": "severe",
+      "frequency": 2,
+      "is_chronic": false
+    },
+    "Medical Service/Status: V85.22": {
+      "score": 0.7027618416521882,
+      "raw_score": 8.131348796078319,
+      "severity": "severe",
+      "frequency": 2,
+      "is_chronic": false
+    },
+    "Disease (ICD-9: 070.70)": {
+      "score": 0.47409824201619283,
+      "raw_score": 5.485582655395747,
+      "severity": "moderate",
+      "frequency": 2,
+      "is_chronic": false
+    },
+    "Radiology - general": {
+      "score": 0.4593474096142742,
+      "raw_score": 5.314907248474811,
+      "severity": "moderate",
+      "frequency": 2,
+      "is_chronic": false
+    },
+    "Insight present: [neurotic cond.] or [psychotic cond.]": {
+      "score": 0.2613518779595978,
+      "raw_score": 3.023987860814107,
+      "severity": "mild",
+      "frequency": 1,
+      "is_chronic": false
+    },
+    "Arthritis of facet joint of lumbar spine (disorder)": {
+      "score": 0.24935841525405017,
+      "raw_score": 2.885216768316699,
+      "severity": "mild",
+      "frequency": 1,
+      "is_chronic": false
+    },
+    "Pulmonary hypertension secondary to raised pulmonary vascular resistance": {
+      "score": 0.24475979442645587,
+      "raw_score": 2.832008145261456,
+      "severity": "mild",
+      "frequency": 1,
+      "is_chronic": false
+    }
+  },
+  "disease_progression": {
+    "Ulcer of foot": {
+      "values": [
+        2.559996777002952,
+        0.0,
+        3.7757640695756565,
+        5.234800208588491
+      ],
+      "trend": "increasing",
+      "peak_visit": 3,
+      "peak_value": 5.234800208588491
+    },
+    "Disease (ICD-9: 303.91)": {
+      "values": [
+        0.0,
+        2.749863744917882,
+        3.5040048794234906,
+        4.858027444432632
+      ],
+      "trend": "increasing",
+      "peak_visit": 3,
+      "peak_value": 4.858027444432632
+    },
+    "Isotope uptake/excretion studies": {
+      "values": [
+        0.0,
+        0.0,
+        3.8887926352878437,
+        5.391505433931957
+      ],
+      "trend": "increasing",
+      "peak_visit": 3,
+      "peak_value": 5.391505433931957
+    },
+    "MCH - low": {
+      "values": [
+        0.0,
+        0.0,
+        3.628055284656314,
+        5.030013584250221
+      ],
+      "trend": "increasing",
+      "peak_visit": 3,
+      "peak_value": 5.030013584250221
+    },
+    "Neurological investigation": {
+      "values": [
+        0.0,
+        0.0,
+        3.6024649661733714,
+        4.99453461838692
+      ],
+      "trend": "increasing",
+      "peak_visit": 3,
+      "peak_value": 4.99453461838692
+    },
+    "Medical Service/Status: V85.22": {
+      "values": [
+        0.0,
+        2.939066910278237,
+        0.0,
+        5.192281885800082
+      ],
+      "trend": "increasing",
+      "peak_visit": 3,
+      "peak_value": 5.192281885800082
+    },
+    "Disease (ICD-9: 070.70)": {
+      "values": [
+        2.542592952285692,
+        2.9429897031100554,
+        0.0,
+        0.0
+      ],
+      "trend": "increasing",
+      "peak_visit": 1,
+      "peak_value": 2.9429897031100554
+    },
+    "Radiology - general": {
+      "values": [
+        2.4634841111603443,
+        2.851423137314467,
+        0.0,
+        0.0
+      ],
+      "trend": "increasing",
+      "peak_visit": 1,
+      "peak_value": 2.851423137314467
+    },
+    "Insight present: [neurotic cond.] or [psychotic cond.]": {
+      "values": [
+        0.0,
+        3.023987860814107,
+        0.0,
+        0.0
+      ],
+      "trend": "stable",
+      "peak_visit": 1,
+      "peak_value": 3.023987860814107
+    },
+    "Arthritis of facet joint of lumbar spine (disorder)": {
+      "values": [
+        0.0,
+        2.885216768316699,
+        0.0,
+        0.0
+      ],
+      "trend": "stable",
+      "peak_visit": 1,
+      "peak_value": 2.885216768316699
+    }
+  },
+  "clinical_insights": [
+    {
+      "priority": "moderate",
+      "message": "Moderate mortality risk detected",
+      "suggested_action": "Assess risk factors and adjust care plan"
+    },
+    {
+      "priority": "high",
+      "message": "Severe conditions: Ulcer of foot, Disease (ICD-9: 303.91), Isotope uptake/excretion studies",
+      "suggested_action": "Specialist consultation"
+    }
+  ],
+  "attention_analysis": {
+    "alpha_mean": 0.25,
+    "alpha_std": 0.07038886845111847,
+    "beta_mean": 0.0078125,
+    "beta_std": 0.008098865859210491
+  },
+  "metadata": {
+    "export_timestamp": "20260208_135248",
+    "patient_id": "PATIENT_7",
+    "analysis_version": "2.0",
+    "analysis_date": "2026-02-08 13:52:48"
+  }
+}

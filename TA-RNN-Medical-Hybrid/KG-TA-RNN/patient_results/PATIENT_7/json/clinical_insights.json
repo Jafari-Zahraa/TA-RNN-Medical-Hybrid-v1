@@ -1,0 +1,23 @@
+{
+  "patient_id": "PATIENT_7",
+  "timestamp": "20260208_135248",
+  "mortality_risk": 0.37764111161231995,
+  "risk_category": "moderate",
+  "insights": [
+    {
+      "priority": "moderate",
+      "message": "Moderate mortality risk detected",
+      "suggested_action": "Assess risk factors and adjust care plan"
+    },
+    {
+      "priority": "high",
+      "message": "Severe conditions: Ulcer of foot, Disease (ICD-9: 303.91), Isotope uptake/excretion studies",
+      "suggested_action": "Specialist consultation"
+    }
+  ],
+  "priority_summary": {
+    "critical": 0,
+    "high": 1,
+    "medium": 0
+  }
+}
